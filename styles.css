@@ -1,0 +1,99 @@
+/* Зовнішній CSS файл (styles.css) */
+
+/* Стилі для вкладок */
+.tabs {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.tab-buttons {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.tab-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.tab-btn.active {
+    background-color: white;
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+/* Приклад позиціонування */
+.positioned-element {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Приклад float */
+.float-container {
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+/* Додаткові стилі для різних селекторів */
+#unique-element {
+    border: 2px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.special-text {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Приклад селектора атрибутів */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Приклад псевдокласів */
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Приклад псевдоелементів */
+.special-text::before {
+    content: "→ ";
+    color: #007bff;
+}
