@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Лабораторна робота 2 - Варіант 0</title>
     <style>
-        /* Основные стили */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -26,7 +25,6 @@
             text-align: center;
         }
 
-        /* Стили для вкладок */
         .tabs {
             margin: 20px 0;
         }
@@ -52,7 +50,6 @@
             background-color: #e0e0e0;
         }
 
-        /* Применяем стили к активной вкладке */
         input[type="radio"] {
             display: none;
         }
@@ -76,7 +73,6 @@
             padding: 20px;
         }
 
-        /* Фиксированный элемент */
         .positioned-element {
             position: fixed;
             top: 20px;
@@ -88,7 +84,6 @@
             z-index: 10;
         }
 
-        /* Обтекание изображения текстом */
         .float-container {
             margin: 20px 0;
             overflow: hidden;
@@ -107,13 +102,11 @@
     <div class="container">
         <h1>Лабораторна робота №2</h1>
 
-        <!-- Фиксированный элемент -->
         <div class="positioned-element">
             Фіксований елемент
         </div>
 
         <div class="tabs">
-            <!-- Радиокнопки для управления вкладками -->
             <input type="radio" id="tab1" name="tab" checked>
             <label class="tab-label" for="tab1">Вкладка 1</label>
 
@@ -123,22 +116,21 @@
             <input type="radio" id="tab3" name="tab">
             <label class="tab-label" for="tab3">Вкладка 3</label>
 
-            <!-- Содержимое вкладок -->
             <div class="tab-content">
                 <div id="content1">
                     <h2>Зміст першої вкладки</h2>
                     <div class="float-container">
                         <img src="https://lessonpix.com/drawings/1077/150x150/Smile.png" alt="Placeholder" class="float-left">
-                        <p>Це контент першої вкладки. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Це контент першої вкладки.</p>
                     </div>
                 </div>
                 <div id="content2">
-                    <h2>Зміст другої вкладки</h2>
-                    <p>Це контент другої вкладки. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 style="color: blue; text-align: center;">Зміст другої вкладки</h2>
+                    <p style="font-size: 18px; line-height: 1.6;">Це контент другої вкладки.</p>
                 </div>
                 <div id="content3">
                     <h2>Зміст третьої вкладки</h2>
-                    <p>Це контент третьої вкладки. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p>Це контент третьої вкладки.</p>
                 </div>
             </div>
         </div>
