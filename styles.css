@@ -1,6 +1,3 @@
-/* Зовнішній CSS файл (styles.css) */
-
-/* Стилі для вкладок */
 .tabs {
     margin: 20px 0;
     border: 1px solid #ddd;
@@ -44,7 +41,6 @@
     display: block;
 }
 
-/* Приклад позиціонування */
 .positioned-element {
     position: fixed;
     top: 20px;
@@ -55,7 +51,6 @@
     border-radius: 4px;
 }
 
-/* Приклад float */
 .float-container {
     margin: 20px 0;
     overflow: hidden;
@@ -67,7 +62,6 @@
     margin-bottom: 15px;
 }
 
-/* Додаткові стилі для різних селекторів */
 #unique-element {
     border: 2px solid #007bff;
     padding: 10px;
@@ -79,20 +73,17 @@
     font-weight: bold;
 }
 
-/* Приклад селектора атрибутів */
 input[type="text"] {
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-/* Приклад псевдокласів */
 a:hover {
     color: #0056b3;
     text-decoration: none;
 }
 
-/* Приклад псевдоелементів */
 .special-text::before {
     content: "→ ";
     color: #007bff;
